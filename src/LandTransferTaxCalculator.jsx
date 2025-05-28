@@ -227,21 +227,21 @@ function LandTransferTaxCalculator() {
 
   return (
     <div>
-      <Grid container direction={"column"} spacing={4} paddingBottom={"2rem"}>
-        <Typography variant={"h5"} color="#223957">
+      <Grid container direction={"column"} spacing={4} paddingBottom={"2rem"} alignItems={"center"}>
+        <Typography variant={"h5"} color="#223957" sx={{ lineHeight: "1.5", fontFamily: "'Oswald'" }}>
           Land transfer Tax Calculator
         </Typography>
         <Typography
           variant={"subtitle"}
           fontSize={"17px"}
           fontFamily={"serif"}
-          sx={{ lineHeight: "1.5" }}
+          sx={{ lineHeight: "1.5", fontFamily: "'EB Garamond', serif" }}
         >
           When you a buy a house or condo in Toronto you are subject to land
           transfer tax on closing. Use Irani Law's Tax calculator to determine
           your land transfer tax
         </Typography>
-        <Typography fontFamily={"serif"}>
+        <Typography fontFamily={"serif"} sx={{ lineHeight: "1.5", fontFamily: "'EB Garamond', serif" }}>
           Complete the form below to receive your quote
         </Typography>
       </Grid>
