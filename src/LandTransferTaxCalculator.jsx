@@ -226,9 +226,19 @@ function LandTransferTaxCalculator() {
   }, [price, location, handleCalculate]);
 
   return (
-    <div>
-      <Grid container direction={"column"} spacing={4} paddingBottom={"2rem"} alignItems={"center"}>
-        <Typography variant={"h5"} color="#223957" sx={{ lineHeight: "1.5", fontFamily: "'Oswald'" }}>
+    <div style={{ paddingLeft: "40px", paddingRight: "40px" }}>
+      <Grid
+        container
+        direction={"column"}
+        spacing={4}
+        paddingBottom={"2rem"}
+        alignItems={"center"}
+      >
+        <Typography
+          variant={"h5"}
+          color="#223957"
+          sx={{ lineHeight: "1.5", fontFamily: "'Oswald'" }}
+        >
           Land transfer Tax Calculator
         </Typography>
         <Typography
@@ -241,7 +251,10 @@ function LandTransferTaxCalculator() {
           transfer tax on closing. Use Irani Law's Tax calculator to determine
           your land transfer tax
         </Typography>
-        <Typography fontFamily={"serif"} sx={{ lineHeight: "1.5", fontFamily: "'EB Garamond', serif" }}>
+        <Typography
+          fontFamily={"serif"}
+          sx={{ lineHeight: "1.5", fontFamily: "'EB Garamond', serif" }}
+        >
           Complete the form below to receive your quote
         </Typography>
       </Grid>
