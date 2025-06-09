@@ -10,6 +10,7 @@ import {
   FormControlLabel,
 } from "@mui/material";
 import { NumericFormat } from "react-number-format";
+import "@fontsource/oswald";
 
 // Custom component to format numbers as currency
 const NumberFormatCustom = React.forwardRef(function NumberFormatCustom(
