@@ -257,6 +257,7 @@ function LandTransferTaxCalculator() {
             fontWeight: "300",
             maxWidth: "100%",
             color: "#696969",
+            textAlign: "center",
           }}
         >
           You are subject to Land Transfer Tax in Ontario when purchasing a
