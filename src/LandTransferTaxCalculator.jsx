@@ -237,31 +237,38 @@ function LandTransferTaxCalculator() {
       >
         <Typography
           variant={"h5"}
-          color="#223957"
-          sx={{ lineHeight: "1.5", fontFamily: "'Oswald'", fontSize: "31px" }}
+          color="#090457"
+          sx={{
+            lineHeight: "1.5",
+            fontFamily: "'Oswald', serif",
+            fontSize: "40px",
+          }}
         >
-          Land transfer Tax Calculator
+          Know the true land transfer cost
         </Typography>
         <Typography
           variant={"subtitle"}
-          fontSize={"17px"}
-          fontFamily={"serif"}
+          // fontSize={"17px"}
+          // fontFamily={"serif"}
           sx={{
             lineHeight: "1.5",
-            fontFamily: "'EB Garamond', serif",
+            fontFamily: "'Oswald', sans-serif",
             fontSize: "24px",
+            fontWeight: "300",
+            maxWidth: "100%",
+            color: "#696969",
           }}
         >
-          When you a buy a house or condo in Toronto you are subject to land
-          transfer tax on closing. Use Irani Law's Tax calculator to determine
-          your land transfer tax
+          You are subject to Land Transfer Tax in Ontario when purchasing a
+          property. Use Irani Law Tax calculator so you’re not surprised by
+          hidden costs later.
         </Typography>
         <Typography
           fontFamily={"serif"}
           sx={{
             lineHeight: "1.5",
             fontFamily: "'EB Garamond', serif",
-            fontSize: "20px",
+            fontSize: "17px",
           }}
         >
           Complete the form below to receive your quote
@@ -273,7 +280,8 @@ function LandTransferTaxCalculator() {
             <InputLabel
               sx={{
                 fontSize: "17px",
-                color: "#223957",
+                color: "#090457",
+                fontFamily: "'Oswald', sans-serif",
               }}
             >
               Price (required)
@@ -299,7 +307,8 @@ function LandTransferTaxCalculator() {
             <InputLabel
               sx={{
                 fontSize: "17px",
-                color: "#223957",
+                color: "#090457",
+                fontFamily: "'Oswald', sans-serif",
               }}
             >
               Location
